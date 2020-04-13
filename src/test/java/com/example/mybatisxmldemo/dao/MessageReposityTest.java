@@ -1,17 +1,14 @@
 package com.example.mybatisxmldemo.dao;
 
-import com.example.jpamysqldemo.model.Message;
-import com.example.jpamysqldemo.service.MessageService;
+
 import com.example.mybatisxmldemo.model.Messages;
+import com.example.mybatisxmldemo.model.Page;
 import com.example.mybatisxmldemo.service.MessageService3;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.Example;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
